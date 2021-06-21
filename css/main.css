@@ -11,6 +11,9 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+}
+
 /* Styles */
 
 .nav {
@@ -121,7 +124,7 @@ html {
 }
 
 .principal__seccion1 {
-	height: 750px;
+	height: 100vh;
 	position: relative;
 	margin: 0 200px;
 	z-index: 100;
@@ -142,6 +145,7 @@ html {
 
 .seccion1__imagen {
 	display: block;
+	padding-top: 100px;
 	width: 70%;
 	max-width: 70%;
 	height: auto;
@@ -163,6 +167,8 @@ html {
 
 .seccion1__caja-texto {
 	position: absolute;
+	padding-top: 100px;
+
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);

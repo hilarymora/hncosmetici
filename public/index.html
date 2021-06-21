@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<title>HN COSMETICI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Mi primera pagina web" />
+		<meta name="author" content="Hilary" />
+		<meta name="keywords" content="cosmetics beauty" />
+		<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/main.css" />
+	</head>
+	<body>
+		<header>
+			<nav class="nav">
+				<img class="nav__fondo" src="../img/Fondo Navbar.svg" alt="" />
+				<ul class="nav__menu">
+					<li class="menu__item">
+						<a class="menu__link" href="./index.html">principal</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./portafolio.html">portafolio</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./acerca.html"> acerca de</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./galeria.html">galería</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="./contacto.html">contacto</a>
+					</li>
+				</ul>
+				<div class="nav__logo">
+					<a class="logo__link" href="./index.html"
+						><img class="logo" src="../img/logo.png" alt="HN Cosmetici Logo"
+					/></a>
+				</div>
+			</nav>
+		</header>
+		<div class="principal">
+			<div class="principal__seccion1">
+				<div class="seccion1__contenedor-imagen">
+					<img class="seccion1__imagen" src="../img/imagen.png" />
+				</div>
+				<div class="seccion1__contenedor-texto">
+					<div>
+						<div class="seccion1__caja-texto">
+							<h2 class="seccion1__titulo">¿De qué se trata HN Cosmetici?</h2>
+							<p class="seccion1__texto">
+								Somos una empresa que se encarga de la fabricación de cosméticos
+								(libre de crueldad animal), impulsando una industria que se base
+								en pruebas sin animales, entregando siempre la mayor calidad
+								posible.
+							</p>
+							<div class="seccion1__contenedor-link">
+								<a href="#seccion2" class="seccion1__link">Ver más</a>
+							</div>
+							<!-- <img
+								class="seccion1__imagen-crueldad"
+								src="../img/crueltyfree.png"
+							/> -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="seccion2" class="principal__seccion2">
+				<div class="mision">
+					<div class="mision__izquierda">
+						<h3 class="mision__titulo">Misión</h3>
+					</div>
+					<div class="mision__linea"></div>
+					<div class="mision__derecha">
+						<p class="mision__texto">
+							Brindar un excelente producto cosmético, sin la necesidad de
+							hostigar a ningún animal.
+						</p>
+					</div>
+				</div>
+				<div class="vision">
+					<div class="vision__derecha">
+						<h3 class="vision__titulo">Visión</h3>
+					</div>
+					<div class="vision__linea"></div>
+					<div class="vision__izquierda">
+						<p class="vision__texto">
+							Aspiramos a futuro incrementar el negocio, para que llegue a
+							ocupar un espacio físico y, asimismo, deseamos contar con ayuda
+							externa de varias organizaciones para expandir nuestro mensaje
+							sobre la crueldad animal, para que de esta manera hagamos juntos
+							un cambio y como respuesta a esto, generar que haya una ley.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="seccion3">
+			<img class="seccion3__fondo" src="../img/fonto-seccion3.svg" alt="" />
+			<h2 class="seccion3__titulo">Quienes Somos?</h2>
+			<table class="seccion3__tabla">
+				<tbody>
+					<tr>
+						<td class="seccion3__columna" align="center">
+							<img
+								class="seccion3__imagen"
+								src="../img/me.jpg"
+								alt="HN Cosmetici CEO"
+							/>
+						</td>
+						<td class="seccion3__columna" align="center">
+							<p class="seccion3__nombre">Hilary Mora Ruíz</p>
+						</td>
+						<td class="seccion3__columna" align="center">
+							<p class="seccion3__correo">
+								<a
+									class="seccion3__correo-link"
+									href="mailto:hilarymoraruiz@gmail.com"
+									>hilarymoraruiz@gmail.com</a
+								>
+							</p>
+						</td>
+						<td class="seccion3__columna" align="center">
+							<p class="seccion3__puesto">CEO</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="seccion4">
+			<h2 class="seccion4__titulo">Porqué HN Cosmetici?</h2>
+			<div class="seccion4__contenido">
+				<div class="seccion4__contenedor-imagen">
+					<img
+						class="seccion4__imagen"
+						src="../img/crueltyfree.png"
+						alt="Cruelty Free"
+					/>
+				</div>
+				<div class="seccion4__contenedor-texto">
+					<p class="seccion4__texto">
+						Todos nuestros procesos se realizan sin ningún tipo de explotación,
+						experimentación o maltrato animal
+					</p>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__izquierda">
+				<h3 class="footer__ubicacion-titulo">Nuestra Ubicación</h3>
+				<!-- <p>San Ramón, Alajuela, Costa Rica</p> -->
+				<iframe
+					class="footer__mapa"
+					loading="lazy"
+					allowfullscreen
+					src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ26_Td-NEoI8ROmhF1iTA_iU&key=AIzaSyD-KmmQVYXIM1lFLRwU-ZB5DHRQgZa4rVs"
+				></iframe>
+			</div>
+			<div class="footer__linea-divisora"></div>
+			<div class="footer__derecha">
+				<h3 class="footer__contacto-titulo">Contáctenos</h3>
+				<div class="footer__contenedor-contacto">
+					<p class="footer__contato-texto">
+						Numero de teléfono:
+						<a class="footer__contacto-link" href="tel:60399639">60399639</a>
+					</p>
+					<p class="footer__contato-texto">
+						Correo electrónico:
+						<a
+							class="footer__contacto-link"
+							href="mailto:hilarymoraruiz@gmail.com"
+							>hilarymoraruiz@gmail.com</a
+						>
+					</p>
+					<div class="footer__contenedor-redes-sociales">
+						<a href="https://www.facebook.com/" target="_blank"
+							><img
+								src="../img/iconmonstr-facebook-4.svg"
+								alt=""
+								class="footer__red-social-img"
+						/></a>
+						<a href="https://www.instagram.com/" target="_blank"
+							><img
+								src="../img/iconmonstr-instagram-11.svg"
+								alt=""
+								class="footer__red-social-img"
+						/></a>
+						<a href="https://www.whatsapp.com/" target="_blank"
+							><img
+								src="../img/iconmonstr-whatsapp-1.svg"
+								alt=""
+								class="footer__red-social-img"
+						/></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
